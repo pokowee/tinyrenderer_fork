@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="B5ZLyQjfQPPH1I7ceP93">
-    <mxGraphModel dx="2632" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2361" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" value="" vertex="1">
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;fontStyle=1" value="" vertex="1">
           <mxGeometry height="595" width="920" x="180" y="45" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-38" edge="1" parent="1" source="Bt1Z8rTunCoVHOvrhCG0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;fontStyle=1" target="Bt1Z8rTunCoVHOvrhCG0-15" value="Control&lt;div&gt;Command&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="MCU" vertex="1">
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="MCU/RCores" vertex="1">
           <mxGeometry height="530" width="270" x="800" y="75" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-37" edge="1" parent="1" source="Bt1Z8rTunCoVHOvrhCG0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;fontStyle=1" target="Bt1Z8rTunCoVHOvrhCG0-35" value="Control&lt;br&gt;Command">
@@ -28,7 +28,7 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="ASW" vertex="1">
           <mxGeometry height="230" width="230" x="820" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="Basic-Software" vertex="1">
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="Basic-Software" vertex="1">
           <mxGeometry height="170" width="480" x="230" y="350" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="Application-Level" vertex="1">
@@ -100,13 +100,13 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Chip Supported SDK" vertex="1">
           <mxGeometry height="35" width="135" x="540" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="SOC Hardware" vertex="1">
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="SOC Hardware" vertex="1">
           <mxGeometry height="35" width="480" x="230" y="535" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="BSW" vertex="1">
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="BSW" vertex="1">
           <mxGeometry height="170" width="230" x="820" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="MCU/RCores Hardware" vertex="1">
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="MCU/RCores Hardware" vertex="1">
           <mxGeometry height="35" width="230" x="821" y="535" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RTE" vertex="1">
