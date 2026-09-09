@@ -10,9 +10,11 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-38" edge="1" parent="1" source="Bt1Z8rTunCoVHOvrhCG0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;fontStyle=1" target="Bt1Z8rTunCoVHOvrhCG0-15" value="Control&lt;div&gt;Command&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="MCU/RCores" vertex="1">
-          <mxGeometry height="530" width="270" x="800" y="75" as="geometry" />
-        </mxCell>
+        <object label="MCU/RCores" ASIL="ASIL D" Type="Process" id="Bt1Z8rTunCoVHOvrhCG0-35">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1">
+            <mxGeometry height="530" width="270" x="800" y="75" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-37" edge="1" parent="1" source="Bt1Z8rTunCoVHOvrhCG0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;fontStyle=1" target="Bt1Z8rTunCoVHOvrhCG0-35" value="Control&lt;br&gt;Command">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -27,9 +29,11 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="&lt;b&gt;Inputs&lt;/b&gt;" vertex="1">
           <mxGeometry height="530" width="160" x="-40" y="75" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" value="ASW" vertex="1">
-          <mxGeometry height="230" width="230" x="820" y="110" as="geometry" />
-        </mxCell>
+        <object label="ASW" ASIL="ASIL D" Type="Software" id="Bt1Z8rTunCoVHOvrhCG0-25">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1">
+            <mxGeometry height="230" width="230" x="820" y="110" as="geometry" />
+          </mxCell>
+        </object>
         <object label="Basic-Software" ASIL="ASIL B" Type="Software" id="Bt1Z8rTunCoVHOvrhCG0-24">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1">
             <mxGeometry height="170" width="480" x="230" y="350" as="geometry" />
@@ -83,21 +87,31 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Arbitrator &amp;amp; Validator &amp;amp; ComToVehicle" vertex="1">
           <mxGeometry height="155" width="120" x="875" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Steering" vertex="1">
-          <mxGeometry height="50" width="120" x="1190" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Propulsion" vertex="1">
-          <mxGeometry height="50" width="120" x="1190" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Braking" vertex="1">
-          <mxGeometry height="50" width="120" x="1190" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Body" vertex="1">
-          <mxGeometry height="50" width="120" x="1190" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI" vertex="1">
-          <mxGeometry height="50" width="120" x="1190" y="470" as="geometry" />
-        </mxCell>
+        <object label="Steering" ASIL="ASIL D" Type="Actuator" id="Bt1Z8rTunCoVHOvrhCG0-10">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="1190" y="190" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Propulsion" ASIL="ASIL C" Type="Actuator" id="Bt1Z8rTunCoVHOvrhCG0-11">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="1190" y="260" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Braking" ASIL="ASIL D" Type="Actuator" id="Bt1Z8rTunCoVHOvrhCG0-12">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="1190" y="330" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Body" ASIL="ASIL B" Type="Actuator" id="Bt1Z8rTunCoVHOvrhCG0-13">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="1190" y="400" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="HMI" ASIL="ASIL B" Type="Actuator" id="Bt1Z8rTunCoVHOvrhCG0-14">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="1190" y="470" as="geometry" />
+          </mxCell>
+        </object>
         <object label="Radar Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" ASIL="ASIL B" Type="Sensor" id="Bt1Z8rTunCoVHOvrhCG0-16">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
             <mxGeometry height="35" width="100" x="-10" y="497.5" as="geometry" />
@@ -125,12 +139,16 @@
             <mxGeometry height="35" width="480" x="230" y="535" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="BSW" vertex="1">
-          <mxGeometry height="170" width="230" x="820" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="MCU/RCores Hardware" vertex="1">
-          <mxGeometry height="35" width="230" x="821" y="535" as="geometry" />
-        </mxCell>
+        <object label="BSW" ASIL="ASIL D" Type="Software" id="Bt1Z8rTunCoVHOvrhCG0-26">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1">
+            <mxGeometry height="170" width="230" x="820" y="350" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="MCU/RCores Hardware" ASIL="ASIL D" Type="Hardware" id="Bt1Z8rTunCoVHOvrhCG0-28">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1">
+            <mxGeometry height="35" width="230" x="821" y="535" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RTE" vertex="1">
           <mxGeometry height="35" width="210" x="830" y="377.5" as="geometry" />
         </mxCell>
