@@ -1,11 +1,92 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="B5ZLyQjfQPPH1I7ceP93">
-    <mxGraphModel dx="921" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1336" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="ASW" vertex="1">
+          <mxGeometry height="230" width="230" x="760" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Basic-Software" vertex="1">
+          <mxGeometry height="170" width="480" x="240" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Application-Level" vertex="1">
+          <mxGeometry height="230" width="480" x="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="&lt;b&gt;Actuators&lt;/b&gt;" vertex="1">
+          <mxGeometry height="400" width="160" x="1030" y="90" as="geometry" />
+        </mxCell>
         <mxCell id="baR_4cA-EKOtxeg8wycX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Driver State" vertex="1">
-          <mxGeometry height="50" width="120" x="80" y="230" as="geometry" />
+          <mxGeometry height="50" width="120" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI Input" vertex="1">
+          <mxGeometry height="50" width="120" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Map Data" vertex="1">
+          <mxGeometry height="50" width="120" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EgoMotion Input" vertex="1">
+          <mxGeometry height="50" width="120" x="40" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vehicle State" vertex="1">
+          <mxGeometry height="50" width="120" x="40" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Environment Percepetion" vertex="1">
+          <mxGeometry height="130" width="120" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input Preprocess" vertex="1">
+          <mxGeometry height="170" width="120" x="270" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Algo-EBM&lt;br&gt;(Model)" vertex="1">
+          <mxGeometry height="170" width="120" x="420" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Algo-P&amp;amp;C&lt;br&gt;(Model &amp;amp; Rule)" vertex="1">
+          <mxGeometry height="170" width="120" x="580" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Arbitrator &amp;amp; Validator &amp;amp; ComToVehicle" vertex="1">
+          <mxGeometry height="170" width="120" x="815" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Steering" vertex="1">
+          <mxGeometry height="50" width="120" x="1050" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Propulsion" vertex="1">
+          <mxGeometry height="50" width="120" x="1050" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Braking" vertex="1">
+          <mxGeometry height="50" width="120" x="1050" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Body" vertex="1">
+          <mxGeometry height="50" width="120" x="1050" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI" vertex="1">
+          <mxGeometry height="50" width="120" x="1050" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Radar Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="100" x="50" y="482.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Camera Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="100" x="50" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MiddleWare" vertex="1">
+          <mxGeometry height="35" width="447.5" x="255" y="377.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Operating System" vertex="1">
+          <mxGeometry height="85" width="457.5" x="250" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BSP (Board Support Packages)" vertex="1">
+          <mxGeometry height="35" width="280" x="260" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Chip Supported SDK" vertex="1">
+          <mxGeometry height="35" width="135" x="560" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOC Hardware" vertex="1">
+          <mxGeometry height="35" width="480" x="240" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="BSW" vertex="1">
+          <mxGeometry height="170" width="230" x="760" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MCU/RCores Hardware" vertex="1">
+          <mxGeometry height="35" width="230" x="761" y="535" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
