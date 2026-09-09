@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="B5ZLyQjfQPPH1I7ceP93">
-    <mxGraphModel dx="2761" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2361" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,11 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="&lt;b&gt;Actuators&lt;/b&gt;" vertex="1">
           <mxGeometry height="400" width="160" x="1170" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="baR_4cA-EKOtxeg8wycX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Driver State&lt;br&gt;(Incl. DMS)" vertex="1">
-          <mxGeometry height="50" width="120" x="-20" y="105" as="geometry" />
-        </mxCell>
+        <object label="Driver State&lt;br&gt;(Incl. DMS)" ASIL="ASIL B" Type="Sensor" id="baR_4cA-EKOtxeg8wycX-1">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="-20" y="105" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI Input" vertex="1">
           <mxGeometry height="50" width="120" x="-20" y="175" as="geometry" />
         </mxCell>
