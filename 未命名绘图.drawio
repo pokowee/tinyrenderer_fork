@@ -37,23 +37,31 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="&lt;b&gt;Actuators&lt;/b&gt;" vertex="1">
           <mxGeometry height="400" width="160" x="1170" y="140" as="geometry" />
         </mxCell>
-        <object label="Driver State&lt;br&gt;(Incl. DMS)" ASIL="ASIL B" Type="Sensor" id="baR_4cA-EKOtxeg8wycX-1">
+        <object label="Driver State&lt;br&gt;(Incl. DMS)" ASIL="ASIL B" Type="Input" id="baR_4cA-EKOtxeg8wycX-1">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
             <mxGeometry height="50" width="120" x="-20" y="105" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI Input" vertex="1">
-          <mxGeometry height="50" width="120" x="-20" y="175" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Map Data" vertex="1">
-          <mxGeometry height="50" width="120" x="-20" y="245" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EgoMotion Input" vertex="1">
-          <mxGeometry height="50" width="120" x="-20" y="315" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vehicle State" vertex="1">
-          <mxGeometry height="50" width="120" x="-20" y="385" as="geometry" />
-        </mxCell>
+        <object label="HMI Input" ASIL="ASIL B" Type="Input" id="Bt1Z8rTunCoVHOvrhCG0-1">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="-20" y="175" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Map Data" ASIL="ASIL QM" Type="Input" id="Bt1Z8rTunCoVHOvrhCG0-2">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="-20" y="245" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="EgoMotion Input" ASIL="ASIL D" Type="Input" id="Bt1Z8rTunCoVHOvrhCG0-3">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="-20" y="315" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Vehicle State" ASIL="ASIL D" Type="Input" id="Bt1Z8rTunCoVHOvrhCG0-4">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="50" width="120" x="-20" y="385" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Environment Percepetion" vertex="1">
           <mxGeometry height="130" width="120" x="-20" y="455" as="geometry" />
         </mxCell>
@@ -84,12 +92,16 @@
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI" vertex="1">
           <mxGeometry height="50" width="120" x="1190" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Radar Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" vertex="1">
-          <mxGeometry height="35" width="100" x="-10" y="497.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Bt1Z8rTunCoVHOvrhCG0-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Camera Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" vertex="1">
-          <mxGeometry height="35" width="100" x="-10" y="540" as="geometry" />
-        </mxCell>
+        <object label="Radar Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" ASIL="ASIL B" Type="Sensor" id="Bt1Z8rTunCoVHOvrhCG0-16">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="35" width="100" x="-10" y="497.5" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Camera Sensor&lt;div&gt;&amp;nbsp;Groups&lt;/div&gt;" ASIL="ASIL B" Type="Sensor" id="Bt1Z8rTunCoVHOvrhCG0-17">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="35" width="100" x="-10" y="540" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MiddleWare" vertex="1">
           <mxGeometry height="35" width="447.5" x="245" y="377.5" as="geometry" />
         </mxCell>
