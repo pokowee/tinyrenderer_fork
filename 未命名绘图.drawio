@@ -56,16 +56,16 @@
           <mxGeometry height="130" width="120" x="-20" y="455" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input Preprocess" vertex="1">
-          <mxGeometry height="170" width="120" x="260" y="160" as="geometry" />
+          <mxGeometry height="155" width="120" x="260" y="160" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Algo-EBM&lt;br&gt;(Model)" vertex="1">
-          <mxGeometry height="170" width="120" x="410" y="160" as="geometry" />
+          <mxGeometry height="155" width="120" x="410" y="160" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Algo-P&amp;amp;C&lt;br&gt;(Model &amp;amp; Rule)" vertex="1">
-          <mxGeometry height="170" width="120" x="570" y="160" as="geometry" />
+          <mxGeometry height="155" width="120" x="570" y="160" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Arbitrator &amp;amp; Validator &amp;amp; ComToVehicle" vertex="1">
-          <mxGeometry height="170" width="120" x="875" y="160" as="geometry" />
+          <mxGeometry height="155" width="120" x="875" y="160" as="geometry" />
         </mxCell>
         <mxCell id="Bt1Z8rTunCoVHOvrhCG0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Steering" vertex="1">
           <mxGeometry height="50" width="120" x="1190" y="190" as="geometry" />
