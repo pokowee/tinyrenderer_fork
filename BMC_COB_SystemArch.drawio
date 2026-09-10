@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ADCU FuSa Architecture" id="MVjE3vvs_yqqjMv8072u">
-    <mxGraphModel dx="2191" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1534" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -368,8 +368,20 @@
         <mxCell id="OFI0W63pSr0FRuw_pi3K-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0F62E6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" value="&lt;b&gt;Components&lt;br&gt;on ADCU&lt;/b&gt;" vertex="1">
           <mxGeometry height="92" width="170" x="48" y="1478" as="geometry" />
         </mxCell>
-        <mxCell id="OFI0W63pSr0FRuw_pi3K-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;ASW&lt;br&gt;ASIL D&lt;/span&gt;" vertex="1">
-          <mxGeometry height="122" width="220" x="1080" y="448" as="geometry" />
+        <mxCell id="OFI0W63pSr0FRuw_pi3K-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;Safe ASW&lt;br&gt;ASIL D&lt;/span&gt;" vertex="1">
+          <mxGeometry height="122" width="102.5" x="1077.5" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="OFI0W63pSr0FRuw_pi3K-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;ASW&lt;br&gt;ASIL QM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="122" width="102.5" x="1200" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="OFI0W63pSr0FRuw_pi3K-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Safe BSW&lt;br&gt;ASIL D&lt;/span&gt;" vertex="1">
+          <mxGeometry height="122" width="225" x="1077.5" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="OFI0W63pSr0FRuw_pi3K-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Safe OS&lt;br&gt;ASIL D&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontStyle%3D1%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-weight%3A%20400%3B%26quot%3B%26gt%3BSafe%20BSW%26lt%3Bbr%26gt%3BASIL%20D%26lt%3B%2Fspan%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22122%22%20width%3D%22225%22%20x%3D%221077.5%22%20y%3D%22583%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="122" width="102.5" x="1077.5" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="OFI0W63pSr0FRuw_pi3K-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Safe MCAL&lt;br&gt;ASIL D" vertex="1">
+          <mxGeometry height="122" width="102.5" x="1200" y="725" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
