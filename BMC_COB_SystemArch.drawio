@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ADCU FuSa Architecture" id="MVjE3vvs_yqqjMv8072u">
-    <mxGraphModel dx="2191" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,7 +75,7 @@
           </mxCell>
         </object>
         <object label="&lt;b&gt;FSI&lt;br&gt;ASIL D&lt;/b&gt;" ASIL="ASIL D" id="OFI0W63pSr0FRuw_pi3K-25">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBA9CE;strokeColor=none;fontColor=#2F7A6B;fontSize=24;" vertex="1">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBA9CE;strokeColor=none;fontColor=#2F7A6B;fontSize=24;verticalAlign=top;" vertex="1">
             <mxGeometry height="617" width="288" x="1043" y="338" as="geometry" />
           </mxCell>
         </object>
@@ -138,7 +138,7 @@
           </mxCell>
         </object>
         <object label="&lt;b&gt;Main&lt;br&gt;ASIL B(D)&lt;/b&gt;" ASIL="ASIL B" id="OFI0W63pSr0FRuw_pi3K-38">
-          <mxCell parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#5F7D3F;strokeColor=none;fontColor=#FFFFFF;fontSize=24;" vertex="1">
+          <mxCell parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#5F7D3F;strokeColor=none;fontColor=#FFFFFF;fontSize=24;verticalAlign=top;" vertex="1">
             <mxGeometry height="478" width="285" x="1045" y="1080" as="geometry" />
           </mxCell>
         </object>
