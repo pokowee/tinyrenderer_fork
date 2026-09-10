@@ -393,21 +393,31 @@
             <mxGeometry height="122" width="102.5" x="1200" y="725" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="OFI0W63pSr0FRuw_pi3K-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;Safe Application&lt;br&gt;ASIL B&lt;/span&gt;" vertex="1">
-          <mxGeometry height="122" width="102.5" x="1077.5" y="1178" as="geometry" />
-        </mxCell>
-        <mxCell id="OFI0W63pSr0FRuw_pi3K-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Application&lt;br&gt;ASIL QM&lt;/span&gt;" vertex="1">
-          <mxGeometry height="122" width="102.5" x="1200" y="1178" as="geometry" />
-        </mxCell>
-        <mxCell id="OFI0W63pSr0FRuw_pi3K-110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Safe Middleware&lt;br&gt;ASIL B&lt;/span&gt;" vertex="1">
-          <mxGeometry height="57" width="225" x="1077.5" y="1314" as="geometry" />
-        </mxCell>
-        <mxCell id="OFI0W63pSr0FRuw_pi3K-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Operating&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;System (Linux)&lt;br&gt;ASIL B&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="102.5" x="1077.5" y="1390" as="geometry" />
-        </mxCell>
-        <mxCell id="OFI0W63pSr0FRuw_pi3K-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;BSP&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;ASIL B&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="102.5" x="1200" y="1390" as="geometry" />
-        </mxCell>
+        <object label="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;Safe Application&lt;br&gt;ASIL B&lt;/span&gt;" ASIL="ASIL B" id="OFI0W63pSr0FRuw_pi3K-108">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1">
+            <mxGeometry height="122" width="102.5" x="1077.5" y="1178" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-weight: 400;&quot;&gt;Application&lt;br&gt;ASIL QM&lt;/span&gt;" ASIL="ASIL QM" id="OFI0W63pSr0FRuw_pi3K-109">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1">
+            <mxGeometry height="122" width="102.5" x="1200" y="1178" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-weight: 400;&quot;&gt;Middleware&lt;br&gt;ASIL B&lt;/span&gt;" ASIL="ASIL B" id="OFI0W63pSr0FRuw_pi3K-110">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1">
+            <mxGeometry height="57" width="225" x="1077.5" y="1314" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-weight: 400;&quot;&gt;Operating&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;System (Linux)&lt;br&gt;ASIL B&lt;/span&gt;&lt;/div&gt;" ASIL="ASIL B" id="OFI0W63pSr0FRuw_pi3K-111">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1">
+            <mxGeometry height="80" width="102.5" x="1077.5" y="1390" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-weight: 400;&quot;&gt;BSP&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;ASIL B&lt;/span&gt;&lt;/div&gt;" ASIL="ASIL B" id="OFI0W63pSr0FRuw_pi3K-112">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1">
+            <mxGeometry height="80" width="102.5" x="1200" y="1390" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
