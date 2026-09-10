@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ADCU FuSa Architecture" id="MVjE3vvs_yqqjMv8072u">
-    <mxGraphModel dx="1805" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2191" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,6 +367,9 @@
         </mxCell>
         <mxCell id="OFI0W63pSr0FRuw_pi3K-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0F62E6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" value="&lt;b&gt;Components&lt;br&gt;on ADCU&lt;/b&gt;" vertex="1">
           <mxGeometry height="92" width="170" x="48" y="1478" as="geometry" />
+        </mxCell>
+        <mxCell id="OFI0W63pSr0FRuw_pi3K-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;ASW&lt;br&gt;ASIL D&lt;/span&gt;" vertex="1">
+          <mxGeometry height="122" width="220" x="1080" y="448" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
