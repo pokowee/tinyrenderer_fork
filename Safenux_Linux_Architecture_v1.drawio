@@ -67,7 +67,7 @@
         <mxCell id="stl" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#267659;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safenux linux Usr STL&#xa;ASIL B" vertex="1">
           <mxGeometry height="68" width="224" x="468" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="middleware" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="功能安全中间件&#xa;ASIL B" vertex="1">
+        <mxCell id="middleware" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="OBF-DM&#xa;ASIL B" vertex="1">
           <mxGeometry height="64" width="190" x="819" y="210" as="geometry" />
         </mxCell>
         <mxCell id="obffm" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="OBF-FM&#xa;ASIL B" vertex="1">
