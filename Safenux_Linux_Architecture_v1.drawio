@@ -1,0 +1,201 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="safenux-linux-architecture" name="Safenux Linux · 功能安全架构">
+    <mxGraphModel dx="2191" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1840" pageHeight="1050" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=32;fontColor=#172D49;fontStyle=1;align=left;verticalAlign=middle;spacing=10;" value="Safenux Linux 功能安全架构" vertex="1">
+          <mxGeometry height="56" width="1140" x="40" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#607087;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="用户态 · Qualified Linux · FSI M55 · MCU / AUTOSAR" vertex="1">
+          <mxGeometry height="32" width="1100" x="42" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="version" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#607087;fontStyle=1;align=left;verticalAlign=middle;spacing=10;" value="ARCHITECTURE  /  V1" vertex="1">
+          <mxGeometry height="42" width="310" x="1490" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-zone" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CDD8E5;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="" vertex="1">
+          <mxGeometry height="250" width="540" x="1260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-head" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E7EEF7;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#254464;fontStyle=1;align=left;verticalAlign=middle;spacing=10;" value="组件归属  /  LEGEND" vertex="1">
+          <mxGeometry height="44" width="540" x="1260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-obf" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Momenta OBF 组件" vertex="1">
+          <mxGeometry height="38" width="218" x="1282" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-note-obf" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#607087;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="中间件 · OBF-FM · fusa handler" vertex="1">
+          <mxGeometry height="38" width="280" x="1510" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-safenux" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#267659;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safenux 组件" vertex="1">
+          <mxGeometry height="38" width="218" x="1282" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-note-safenux" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#607087;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="Usr STL · Qualified Linux" vertex="1">
+          <mxGeometry height="38" width="280" x="1510" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-xheart" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#278467;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Xheart 组件" vertex="1">
+          <mxGeometry height="38" width="218" x="1282" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-note-xheart" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#607087;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="FCCU 通道配置" vertex="1">
+          <mxGeometry height="38" width="280" x="1510" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-joint" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFF5DA;strokeColor=#DBC17D;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#725B24;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="联合开发组件" vertex="1">
+          <mxGeometry height="38" width="218" x="1282" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-note-joint" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#607087;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="BSP / Drivers / SDK" vertex="1">
+          <mxGeometry height="38" width="280" x="1510" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="user-zone" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F8FC;strokeColor=#CDD8E5;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="" vertex="1">
+          <mxGeometry height="250" width="1080" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="user-head" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E7EEF7;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#254464;fontStyle=1;align=left;verticalAlign=middle;spacing=10;" value="USER SPACE  /  用户态" vertex="1">
+          <mxGeometry height="44" width="1080" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="apps-title" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#607087;fontStyle=1;align=left;verticalAlign=middle;spacing=10;" value="POSIX APPLICATIONS" vertex="1">
+          <mxGeometry height="28" width="380" x="68" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="app1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CCD5E1;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="posix app1" vertex="1">
+          <mxGeometry height="62" width="100" x="78" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="app2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CCD5E1;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="posix app2" vertex="1">
+          <mxGeometry height="62" width="100" x="195" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="ellipsis" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#607087;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="···" vertex="1">
+          <mxGeometry height="50" width="30" x="299" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="appn" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CCD5E1;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="posix appN" vertex="1">
+          <mxGeometry height="62" width="100" x="334" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="stl" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#267659;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safenux linux Usr STL&#xa;ASIL B" vertex="1">
+          <mxGeometry height="68" width="270" x="474" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="middleware" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="功能安全中间件&#xa;ASIL B" vertex="1">
+          <mxGeometry height="64" width="190" x="819" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="obffm" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="OBF-FM&#xa;ASIL B" vertex="1">
+          <mxGeometry height="68" width="190" x="819" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="user-note" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#607087;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="监控项配置下发&#xa;故障上报&#xa;故障信息获取" vertex="1">
+          <mxGeometry height="90" width="110" x="1010" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="kernel-zone" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F8FC;strokeColor=#CDD8E5;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="" vertex="1">
+          <mxGeometry height="540" width="1080" x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="kernel-head" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E7EEF7;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#254464;fontStyle=1;align=left;verticalAlign=middle;spacing=10;" value="KERNEL SPACE  /  内核态" vertex="1">
+          <mxGeometry height="44" width="1080" x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="syscall" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BDCAD9;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#344F68;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="syscall / interface" vertex="1">
+          <mxGeometry height="40" width="1020" x="70" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="qualified" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="" vertex="1">
+          <mxGeometry height="235" width="1020" x="70" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="qualified-title" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#267659;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safenux Linux (Qualified)  /  ASIL B" vertex="1">
+          <mxGeometry height="42" width="980" x="90" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="module-0-0" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S01. Kernel" vertex="1">
+          <mxGeometry height="60" width="122" x="94" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="module-0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S02. Block" vertex="1">
+          <mxGeometry height="60" width="122" x="234" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="module-0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S03. Crypto" vertex="1">
+          <mxGeometry height="60" width="122" x="374" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="module-0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S04. Drivers" vertex="1">
+          <mxGeometry height="60" width="122" x="514" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="module-0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S05. MM" vertex="1">
+          <mxGeometry height="60" width="122" x="654" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="module-0-5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Third-party&#xa;Lib" vertex="1">
+          <mxGeometry height="60" width="122" x="794" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="module-1-0" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S06. Arch" vertex="1">
+          <mxGeometry height="60" width="122" x="94" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="module-1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S07. Lib" vertex="1">
+          <mxGeometry height="60" width="122" x="234" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="module-1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S08. fs" vertex="1">
+          <mxGeometry height="60" width="122" x="374" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="module-1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S09. Security" vertex="1">
+          <mxGeometry height="60" width="122" x="514" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="module-1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S10. IPC" vertex="1">
+          <mxGeometry height="60" width="122" x="654" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="module-1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="S11. Net" vertex="1">
+          <mxGeometry height="60" width="122" x="794" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="linux-tools" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#243F36;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safety&#xa;Linux Tools" vertex="1">
+          <mxGeometry height="136" width="132" x="934" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="bsp" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFF5DA;strokeColor=#DBC17D;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#725B24;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="BSP / Drivers / SDK  /  ASIL B&#xa;combined Xheart / Safenux" vertex="1">
+          <mxGeometry height="70" width="700" x="110" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="linux-mail" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#9CADC1;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#344F68;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="FCCU / Mailbox" vertex="1">
+          <mxGeometry height="62" width="170" x="909" y="899" as="geometry" />
+        </mxCell>
+        <mxCell id="fsi-zone" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F8FC;strokeColor=#CDD8E5;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="" vertex="1">
+          <mxGeometry height="540" width="230" x="1260" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fsi-head" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E7EEF7;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#254464;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="FSI M55" vertex="1">
+          <mxGeometry height="44" width="230" x="1260" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fsi-config" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#278467;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="FCCU 通道配置&#xa;寄存器、错误码等" vertex="1">
+          <mxGeometry height="116" width="180" x="1285" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="fsi-mail" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#9CADC1;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#344F68;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="FCCU / Mailbox" vertex="1">
+          <mxGeometry height="62" width="180" x="1285" y="899" as="geometry" />
+        </mxCell>
+        <mxCell id="mcu-zone" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F8FC;strokeColor=#CDD8E5;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="" vertex="1">
+          <mxGeometry height="540" width="230" x="1570" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="mcu-head" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E7EEF7;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#254464;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="MCU / AUTOSAR" vertex="1">
+          <mxGeometry height="44" width="230" x="1570" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="handler" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="fusa handler&#xa;OBF" vertex="1">
+          <mxGeometry height="116" width="180" x="1595" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="middleware-obf" edge="1" parent="1" source="middleware" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obffm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stl-obf" edge="1" parent="1" source="stl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="obffm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stl-syscall" edge="1" parent="1" source="stl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="syscall">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="609" y="425" />
+              <mxPoint x="580" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syscall-linux" edge="1" parent="1" source="syscall" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qualified">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsp-mailbox" edge="1" parent="1" source="bsp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="linux-mail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mailbox-fsi" edge="1" parent="1" source="linux-mail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fsi-mail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsi-config-mail" edge="1" parent="1" source="fsi-mail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="fsi-config">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fccu-handler" edge="1" parent="1" source="fsi-config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="handler">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFF2CC;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#916D16;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="6.2" vertex="1">
+          <mxGeometry height="28" width="44" x="1390" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="msg" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#607087;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="ERR / MSG / ..." vertex="1">
+          <mxGeometry height="30" width="140" x="1120" y="939" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#8290A3;fontStyle=0;align=left;verticalAlign=middle;spacing=10;" value="SAFENUX LINUX   /   功能安全架构   /   V1" vertex="1">
+          <mxGeometry height="28" width="1100" x="40" y="1005" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
