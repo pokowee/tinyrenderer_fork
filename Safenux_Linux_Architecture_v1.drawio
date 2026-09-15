@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="safenux-linux-architecture" name="Safenux Linux · 功能安全架构">
-    <mxGraphModel dx="2191" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1840" pageHeight="1050" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1840" pageHeight="1050" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,8 +64,8 @@
         <mxCell id="appn" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CCD5E1;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#24364B;fontStyle=0;align=center;verticalAlign=middle;spacing=10;" value="posix appN" vertex="1">
           <mxGeometry height="62" width="100" x="334" y="269" as="geometry" />
         </mxCell>
-        <mxCell id="stl" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#267659;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safenux linux Usr STL&#xa;ASIL B" vertex="1">
-          <mxGeometry height="68" width="270" x="474" y="310" as="geometry" />
+        <mxCell id="stl" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8F5F0;strokeColor=#79B49C;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#267659;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="Safenux linux Usr STL&#xa;ASIL B" vertex="1">
+          <mxGeometry height="68" width="224" x="468" y="310" as="geometry" />
         </mxCell>
         <mxCell id="middleware" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#344F87;strokeColor=none;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" value="功能安全中间件&#xa;ASIL B" vertex="1">
           <mxGeometry height="64" width="190" x="819" y="210" as="geometry" />
@@ -166,8 +166,8 @@
         <mxCell id="stl-syscall" edge="1" parent="1" source="stl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#476179;strokeWidth=2;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="syscall">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="609" y="425" />
-              <mxPoint x="580" y="425" />
+              <mxPoint x="580" y="400" />
+              <mxPoint x="580" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
